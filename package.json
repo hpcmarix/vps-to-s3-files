@@ -1,0 +1,19 @@
+{
+  "name": "vps-to-s3-files",
+  "version": "1.0.0",
+  "description": "node script for Multiple file transfer from web server/Local System to AWS S3 Bucket",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js",
+    "dev": "nodemon script.js"
+  },
+  "author": "unknown",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "nodemon": "^3.1.10",
+  }
+}
